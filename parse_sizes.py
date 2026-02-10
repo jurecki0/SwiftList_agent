@@ -12,13 +12,15 @@ def main() -> None:
         w = csv.DictWriter(f, fieldnames=["product_id", "size_id", "code", "quantity"])
         w.writeheader()
 
+        product_id = None
+
         for event, elem in ET.iterparse(LIGHT_XML, events=("start", "end")):
             tag = elem.tag
 
             if event == "start" and tag == "product":
                 product_id = elem.get("id")
 
-            elif tag == "size":
+            elif event == "end" and tag == "size":
                 size_id = elem.get("id")
                 code = elem.get("code")
                 # <stock id="1" quantity="1008"/>

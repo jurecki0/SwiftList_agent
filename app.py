@@ -8,23 +8,22 @@ CSV_PATH = Path("data") / "products_with_stock.csv"
 st.set_page_config(page_title="Stock export viewer", layout="wide")
 
 @st.cache_data
-@st.cache_data
 def load_data():
     df = pd.read_csv(CSV_PATH, dtype=str).fillna("")
     df["total_stock"] = pd.to_numeric(df["total_stock"], errors="coerce").fillna(0).astype(int)
+    df["category_label"] = df.apply(
+        lambda r:
+            f'{r["category_name"]} ({r["category_id"]})'
+            if r["category_name"] else f'Unknown ({r["category_id"]})',
+        axis=1
+    )
     return df
 
 df = load_data()
 
 st.title("Stock export viewer")
 
-# Basic cleanup for grouping
-df["category_label"] = df.apply(
-    lambda r:
-        f'{r["category_name"]} ({r["category_id"]})'
-        if r["category_name"] else f'Unknown ({r["category_id"]})',
-    axis=1
-)
+
 
 left, right = st.columns([1, 2])
 

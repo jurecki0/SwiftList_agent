@@ -160,7 +160,7 @@ cython_debug/
 .idea/**/webServers.xml
 
 # Uncomment to ignore *all* IDE metadata (strongly consider keeping some .idea files committed)
-#.idea/
+.idea/
 
 #####################
 # OS-specific
