@@ -44,28 +44,28 @@ with left:
     st.plotly_chart(fig, use_container_width=True)
 
 with right:
-    st.subheader("Products with stock (sorted by category)")
+    st.subheader("Products (sorted by category)")
 
-    # Optional category filter
+    only_in_stock = st.checkbox("Show only products with stock > 0", value=False)
+
     chosen = st.multiselect(
         "Filter by category (optional)",
         options=counts["category_label"].tolist(),
         default=[]
     )
+
     view = df if not chosen else df[df["category_label"].isin(chosen)]
+
+    if only_in_stock:
+        view = view[view["total_stock"] > 0]
+
     view = view.sort_values(["category_name", "product_name_pol", "product_id"], ascending=True)
 
-    # Show product info + stock
     st.dataframe(
         view[["product_id", "product_name_pol", "category_id", "category_name", "total_stock"]],
         use_container_width=True,
         hide_index=True,
     )
-
-    # Stock stats after filtering
-    if len(view) > 0:
-        total_stock = int(view["total_stock"].sum())
-        st.info(f"Total items in stock (selected categories): **{total_stock:,}** pieces")
 
 st.subheader("Category summary")
 st.dataframe(counts, use_container_width=True, hide_index=True)
