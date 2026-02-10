@@ -3,13 +3,15 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-CSV_PATH = Path("data") / "products_flat.csv"
+CSV_PATH = Path("data") / "products_with_stock.csv"
 
 st.set_page_config(page_title="Stock export viewer", layout="wide")
 
 @st.cache_data
+@st.cache_data
 def load_data():
     df = pd.read_csv(CSV_PATH, dtype=str).fillna("")
+    df["total_stock"] = pd.to_numeric(df["total_stock"], errors="coerce").fillna(0).astype(int)
     return df
 
 df = load_data()
@@ -18,7 +20,9 @@ st.title("Stock export viewer")
 
 # Basic cleanup for grouping
 df["category_label"] = df.apply(
-    lambda r: f'{r["category_name"]} ({r["category_id"]})' if r["category_name"] else f'Unknown ({r["category_id"]})',
+    lambda r:
+        f'{r["category_name"]} ({r["category_id"]})'
+        if r["category_name"] else f'Unknown ({r["category_id"]})',
     axis=1
 )
 
@@ -37,25 +41,42 @@ with left:
     counts_top = counts.head(top_n)
 
     fig = px.pie(counts_top, names="category_label", values="products")
-    st.plotly_chart(fig, use_container_width=True)  # Streamlit renders Plotly charts [web:60][web:57]
+    st.plotly_chart(fig, use_container_width=True)
 
 with right:
-    st.subheader("Products (sorted by category)")
-    # Optional filter
+    st.subheader("Products with stock (sorted by category)")
+
+    # Optional category filter
     chosen = st.multiselect(
         "Filter by category (optional)",
         options=counts["category_label"].tolist(),
         default=[]
     )
     view = df if not chosen else df[df["category_label"].isin(chosen)]
-
     view = view.sort_values(["category_name", "product_name_pol", "product_id"], ascending=True)
 
+    # Show product info + stock
     st.dataframe(
-        view[["product_id", "product_name_pol", "category_id", "category_name"]],
+        view[["product_id", "product_name_pol", "category_id", "category_name", "total_stock"]],
         use_container_width=True,
         hide_index=True,
     )
 
+    # Stock stats after filtering
+    if len(view) > 0:
+        total_stock = int(view["total_stock"].sum())
+        st.info(f"Total items in stock (selected categories): **{total_stock:,}** pieces")
+
 st.subheader("Category summary")
 st.dataframe(counts, use_container_width=True, hide_index=True)
+
+# Extra: high‑level stock view
+st.subheader("Stock at a glance")
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.metric("Total products", f"{len(df):,}")
+with col2:
+    st.metric("With non‑zero stock", f"{(df['total_stock'] > 0).sum():,}")
+with col3:
+    st.metric("Total stock", f"{int(df['total_stock'].sum()):,}")
