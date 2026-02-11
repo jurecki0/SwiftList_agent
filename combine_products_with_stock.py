@@ -5,6 +5,7 @@ import pandas as pd
 FLAT = Path("data") / "products_flat.csv"
 SIZES = Path("data") / "products_sizes.csv"
 PRODUCERS_XML = Path("data") / "producers.xml"
+CATEGORIES_XML = Path("data") / "categories.xml"
 OUT_COMBINED = Path("data") / "products_with_stock.csv"
 
 
@@ -16,6 +17,14 @@ def load_producer_names() -> dict[str, str]:
     return {p.get("id", ""): (p.get("name") or "") for p in producers if p.get("id")}
 
 
+def load_category_names() -> dict[str, str]:
+    """Load category id -> name from categories.xml."""
+    tree = ET.parse(CATEGORIES_XML)
+    root = tree.getroot()
+    categories = root.findall("category") or root.findall(".//category")
+    return {c.get("id", ""): (c.get("name") or "") for c in categories if c.get("id")}
+
+
 def main() -> None:
     products = pd.read_csv(FLAT, dtype=str).fillna("")
     print(f"Loaded {len(products)} products from {FLAT}")
@@ -25,6 +34,12 @@ def main() -> None:
         products["producer"] = products["producer_id"].map(producer_names).fillna("")
     else:
         products["producer"] = ""
+
+    category_names = load_category_names()
+    if "category_id" in products.columns:
+        products["category"] = products["category_id"].map(category_names).fillna("")
+    else:
+        products["category"] = ""
 
     sizes = pd.read_csv(SIZES, dtype=str).fillna("")
     sizes["quantity"] = pd.to_numeric(sizes["quantity"], errors="coerce").fillna(0)

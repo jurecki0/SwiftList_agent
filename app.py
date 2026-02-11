@@ -12,11 +12,13 @@ def load_data():
     df = pd.read_csv(CSV_PATH, dtype=str).fillna("")
     if "producer" not in df.columns:
         df["producer"] = ""
+    if "category" not in df.columns:
+        df["category"] = ""
     df["total_stock"] = pd.to_numeric(df["total_stock"], errors="coerce").fillna(0).astype(int)
     df["category_label"] = df.apply(
         lambda r:
-            f'{r["category_name"]} ({r["category_id"]})'
-            if r["category_name"] else f'Unknown ({r["category_id"]})',
+            f'{r["category"]} ({r["category_id"]})'
+            if r.get("category") else f'Unknown ({r["category_id"]})',
         axis=1
     )
     return df
@@ -60,10 +62,10 @@ with right:
     if only_in_stock:
         view = view[view["total_stock"] > 0]
 
-    view = view.sort_values(["category_name", "product_name_pol", "product_id"], ascending=True)
+    view = view.sort_values(["category", "product_name_pol", "product_id"], ascending=True)
 
     st.dataframe(
-        view[["product_id", "product_name_pol", "category_id", "category_name", "producer", "total_stock"]],
+        view[["product_id", "product_name_pol", "category_id", "category", "producer", "total_stock"]],
         use_container_width=True,
         hide_index=True,
     )
