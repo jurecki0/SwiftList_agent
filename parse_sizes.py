@@ -20,16 +20,27 @@ def main() -> None:
     size_names = load_size_names()
 
     with OUT_SIZES.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["product_id", "size_id", "code", "quantity", "size"])
+        w = csv.DictWriter(f, fieldnames=[
+            "product_id", "size_id", "code", "quantity", "size",
+            "price_gross", "price_net", "vat",
+        ])
         w.writeheader()
 
         product_id = None
+        price_gross = ""
+        price_net = ""
+        vat = ""
 
         for event, elem in ET.iterparse(LIGHT_XML, events=("start", "end")):
             tag = elem.tag
 
             if event == "start" and tag == "product":
                 product_id = elem.get("id")
+                vat = elem.get("vat") or ""
+
+            elif event == "start" and tag == "price" and product_id:
+                price_gross = elem.get("gross") or ""
+                price_net = elem.get("net") or ""
 
             elif event == "end" and tag == "size":
                 size_id = elem.get("id") or ""
@@ -45,6 +56,9 @@ def main() -> None:
                     "code": code or "",
                     "quantity": qty or "",
                     "size": size_name,
+                    "price_gross": price_gross,
+                    "price_net": price_net,
+                    "vat": vat,
                 })
                 elem.clear()
 

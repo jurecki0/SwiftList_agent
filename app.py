@@ -16,6 +16,9 @@ def load_data():
         df["category"] = ""
     if "sizes" not in df.columns:
         df["sizes"] = ""
+    for c in ("price_gross", "price_net", "vat", "stock_value"):
+        if c not in df.columns:
+            df[c] = ""
     df["total_stock"] = pd.to_numeric(df["total_stock"], errors="coerce").fillna(0).astype(int)
     df["category_label"] = df.apply(
         lambda r:
@@ -66,8 +69,12 @@ with right:
 
     view = view.sort_values(["category", "product_name_pol", "product_id"], ascending=True)
 
+    display_cols = ["product_id", "product_name_pol", "category", "producer", "sizes", "total_stock"]
+    for c in ("price_gross", "price_net", "vat", "stock_value"):
+        if c in view.columns:
+            display_cols.append(c)
     st.dataframe(
-        view[["product_id", "product_name_pol", "category_id", "category", "producer", "sizes", "total_stock"]],
+        view[display_cols],
         use_container_width=True,
         hide_index=True,
     )
@@ -77,7 +84,7 @@ st.dataframe(counts, use_container_width=True, hide_index=True)
 
 # Extra: high‑level stock view
 st.subheader("Stock at a glance")
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     st.metric("Total products", f"{len(df):,}")
@@ -85,3 +92,6 @@ with col2:
     st.metric("With non‑zero stock", f"{(df['total_stock'] > 0).sum():,}")
 with col3:
     st.metric("Total stock", f"{int(df['total_stock'].sum()):,}")
+with col4:
+    stock_val = pd.to_numeric(df["stock_value"], errors="coerce").fillna(0).sum()
+    st.metric("Stock value (PLN)", f"{stock_val:,.2f}" if stock_val else "—")

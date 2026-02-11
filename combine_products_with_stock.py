@@ -80,10 +80,28 @@ def main() -> None:
         .rename(columns={"quantity": "total_stock"})
     )
 
-    merged = products.merge(stock_per_product, on="product_id", how="left")
+    # One row per product with price and VAT (from first size row per product)
+    price_cols = [c for c in ("price_gross", "price_net", "vat") if c in sizes.columns]
+    if price_cols:
+        product_prices = sizes.drop_duplicates("product_id", keep="first")[["product_id"] + price_cols]
+        merged = products.merge(stock_per_product, on="product_id", how="left")
+        merged = merged.merge(product_prices, on="product_id", how="left")
+    else:
+        merged = products.merge(stock_per_product, on="product_id", how="left")
+        for c in ("price_gross", "price_net", "vat"):
+            merged[c] = ""
+
     merged["total_stock"] = merged["total_stock"].fillna(0).astype(int)
     merged = merged.merge(sizes_summary, on="product_id", how="left")
     merged["sizes"] = merged["sizes"].fillna("")
+
+    # Stock value (total_stock * price_gross) in PLN
+    price_num = pd.to_numeric(merged.get("price_gross", 0), errors="coerce").fillna(0)
+    merged["stock_value"] = (merged["total_stock"] * price_num).round(2)
+    merged["stock_value"] = merged["stock_value"].fillna(0)
+    for c in ("price_gross", "price_net", "vat"):
+        if c in merged.columns:
+            merged[c] = merged[c].fillna("").astype(str)
 
     merged.to_csv(OUT_COMBINED, index=False, encoding="utf-8")
     print(f"Saved: {OUT_COMBINED}")
