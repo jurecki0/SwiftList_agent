@@ -14,6 +14,8 @@ def load_data():
         df["producer"] = ""
     if "category" not in df.columns:
         df["category"] = ""
+    if "sizes" not in df.columns:
+        df["sizes"] = ""
     df["total_stock"] = pd.to_numeric(df["total_stock"], errors="coerce").fillna(0).astype(int)
     df["category_label"] = df.apply(
         lambda r:
@@ -65,7 +67,7 @@ with right:
     view = view.sort_values(["category", "product_name_pol", "product_id"], ascending=True)
 
     st.dataframe(
-        view[["product_id", "product_name_pol", "category_id", "category", "producer", "total_stock"]],
+        view[["product_id", "product_name_pol", "category_id", "category", "producer", "sizes", "total_stock"]],
         use_container_width=True,
         hide_index=True,
     )

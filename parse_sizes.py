@@ -3,13 +3,24 @@ import csv
 import xml.etree.ElementTree as ET
 
 LIGHT_XML = Path("data") / "stock_light_export.xml"
+SIZES_XML = Path("data") / "sizes.xml"
 OUT_SIZES = Path("data") / "products_sizes.csv"
+
+
+def load_size_names() -> dict[str, str]:
+    """Load size id -> name from sizes.xml (nested under group/size)."""
+    tree = ET.parse(SIZES_XML)
+    root = tree.getroot()
+    sizes = root.findall(".//size") or root.findall("size")
+    return {s.get("id", ""): (s.get("name") or "") for s in sizes if s.get("id") is not None}
+
 
 def main() -> None:
     OUT_SIZES.parent.mkdir(parents=True, exist_ok=True)
+    size_names = load_size_names()
 
     with OUT_SIZES.open("w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["product_id", "size_id", "code", "quantity"])
+        w = csv.DictWriter(f, fieldnames=["product_id", "size_id", "code", "quantity", "size"])
         w.writeheader()
 
         product_id = None
@@ -21,17 +32,19 @@ def main() -> None:
                 product_id = elem.get("id")
 
             elif event == "end" and tag == "size":
-                size_id = elem.get("id")
+                size_id = elem.get("id") or ""
                 code = elem.get("code")
                 # <stock id="1" quantity="1008"/>
                 stock = elem.find("stock")
                 qty = stock.get("quantity") if stock is not None else ""
+                size_name = size_names.get(str(size_id), "") if size_id else ""
 
                 w.writerow({
                     "product_id": product_id or "",
-                    "size_id": size_id or "",
+                    "size_id": size_id,
                     "code": code or "",
                     "quantity": qty or "",
+                    "size": size_name,
                 })
                 elem.clear()
 

@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sizes file_format="IOF" version="2.6" language="pol" generated="2026-02-05 09:39:40">
+	<group id="11" name="Produkty SPA">
+		<size id="10" name="100x180">
+			<name xml:lang="bul">100x180</name>
+			<name xml:lang="eng">100x180</name>
+			<name xml:lang="fre">100x180</name>
+			<name xml:lang="ger">100x180</name>
+			<name xml:lang="hun">100x180</name>
+			<name xml:lang="ita">100x180</name>
+			<name xml:lang="pol">100x180</name>
+			<name xml:lang="rum">100x180</name>
+			<name xml:lang="scr">100x180</name>
+			<name xml:lang="slo">100x180</name>
+			<name xml:lang="spa">100x180</name>
+		</size>
+		<size id="11" name="90x180">
+			<name xml:lang="bul">90x180</name>
+			<name xml:lang="eng">90x180</name>
+			<name xml:lang="fre">90x180</name>
+			<name xml:lang="ger">90x180</name>
+			<name xml:lang="hun">90x180</name>
+			<name xml:lang="ita">90x180</name>
+			<name xml:lang="pol">90x180</name>
+			<name xml:lang="rum">90x180</name>
+			<name xml:lang="scr">90x180</name>
+			<name xml:lang="slo">90x180</name>
+			<name xml:lang="spa">90x180</name>
+		</size>
+		<size id="12" name="100x150">
+			<name xml:lang="bul">100x150</name>
+			<name xml:lang="eng">100x150</name>
+			<name xml:lang="fre">100x150</name>
+			<name xml:lang="ger">100x150</name>
+			<name xml:lang="hun">100x150</name>
+			<name xml:lang="ita">100x150</name>
+			<name xml:lang="pol">100x150</name>
+			<name xml:lang="rum">100x150</name>
+			<name xml:lang="scr">100x150</name>
+			<name xml:lang="slo">100x150</name>
+			<name xml:lang="spa">100x150</name>
+		</size>
+	</group>
+	<group id="9" name="Kołdry">
+		<size id="Z" name="135X200">
+			<name xml:lang="bul">135X200</name>
+			<name xml:lang="eng">135X200</name>
+			<name xml:lang="fre">135X200</name>
+			<name xml:lang="ger">135X200</name>
+			<name xml:lang="hun">135X200</name>
+			<name xml:lang="ita">135X200</name>
+			<name xml:lang="pol">135X200</name>
+			<name xml:lang="rum">135X200</name>
+			<name xml:lang="scr">135X200</name>
+			<name xml:lang="slo">135X200</name>
+			<name xml:lang="spa">135X200</name>
+		</size>
+	</group>
+	<group id="-1" name="Grupa one size">
+		<size id="0" name="one size">
+			<name xml:lang="bul">One size</name>
+			<name xml:lang="eng">one size</name>
+			<name xml:lang="fre">One size</name>
+			<name xml:lang="ger">One size</name>
+			<name xml:lang="hun">one size</name>
+			<name xml:lang="ita">One size</name>
+			<name xml:lang="pol">One size</name>
+			<name xml:lang="rum">One size</name>
+			<name xml:lang="scr">one size</name>
+			<name xml:lang="slo">one size</name>
+			<name xml:lang="spa">One size</name>
+		</size>
+	</group>
+	<group id="5" name="Prześcieradła, Poszwy na kołdrę">
+		<size id="O" name="140X240">
+			<name xml:lang="bul">140X240</name>
+			<name xml:lang="eng">140X240</name>
+			<name xml:lang="fre">140X240</name>
+			<name xml:lang="ger">140X240</name>
+			<name xml:lang="hun">140X240</name>
+			<name xml:lang="ita">140X240</name>
+			<name xml:lang="pol">140X240</name>
+			<name xml:lang="rum">140X240</name>
+			<name xml:lang="scr">140X240</name>
+			<name xml:lang="slo">140X240</name>
+			<name xml:lang="spa">140X240</name>
+		</size>
+		<size id="Q" name="160X240">
+			<name xml:lang="bul">160X240</name>
+			<name xml:lang="eng">160X240</name>
+			<name xml:lang="fre">160X240</name>
+			<name xml:lang="ger">160X240</name>
+			<name xml:lang="hun">160X240</name>
+			<name xml:lang="ita">160X240</name>
+			<name xml:lang="pol">160X240</name>
+			<name xml:lang="rum">160X240</name>
+			<name xml:lang="scr">160X240</name>
+			<name xml:lang="slo">160X240</name>
+			<name xml:lang="spa">160X240</name>
+		</size>
+		<size id="S" name="220X240">
+			<name xml:lang="bul">220X240</name>
+			<name xml:lang="eng">220X240</name>
+			<name xml:lang="fre">220X240</name>
+			<name xml:lang="ger">220X240</name>
+			<name xml:lang="hun">220X240</name>
+			<name xml:lang="ita">220X240</name>
+			<name xml:lang="pol">220X240</name>
+			<name xml:lang="rum">220X240</name>
+			<name xml:lang="scr">220X240</name>
+			<name xml:lang="slo">220X240</name>
+			<name xml:lang="spa">220X240</name>
+		</size>
+		<size id="U" name="240X260">
+			<name xml:lang="bul">240X260</name>
+			<name xml:lang="eng">240X260</name>
+			<name xml:lang="fre">240X260</name>
+			<name xml:lang="ger">240X260</name>
+			<name xml:lang="hun">240X260</name>
+			<name xml:lang="ita">240X260</name>
+			<name xml:lang="pol">240X260</name>
+			<name xml:lang="rum">240X260</name>
+			<name xml:lang="scr">240X260</name>
+			<name xml:lang="slo">240X260</name>
+			<name xml:lang="spa">240X260</name>
+		</size>
+		<size id="A" name="90x200x22">
+			<name xml:lang="bul">90x200x22</name>
+			<name xml:lang="eng">90X200</name>
+			<name xml:lang="fre">90x200x22</name>
+			<name xml:lang="ger">90x200x22</name>
+			<name xml:lang="hun">90X200</name>
+			<name xml:lang="ita">90x200x22</name>
+			<name xml:lang="pol">90x200x22</name>
+			<name xml:lang="rum">90x200x22</name>
+			<name xml:lang="scr">90X200</name>
+			<name xml:lang="slo">90X200</name>
+			<name xml:lang="spa">90x200x22</name>
+		</size>
+		<size id="B" name="140X200">
+			<name xml:lang="bul">140X200</name>
+			<name xml:lang="eng">140X200</name>
+			<name xml:lang="fre">140X200</name>
+			<name xml:lang="ger">140X200</name>
+			<name xml:lang="hun">140X200</name>
+			<name xml:lang="ita">140X200</name>
+			<name xml:lang="pol">140X200</name>
+			<name xml:lang="rum">140X200</name>
+			<name xml:lang="scr">140X200</name>
+			<name xml:lang="slo">140X200</name>
+			<name xml:lang="spa">140X200</name>
+		</size>
+		<size id="C" name="160X200">
+			<name xml:lang="bul">160X200</name>
+			<name xml:lang="eng">160X200</name>
+			<name xml:lang="fre">160X200</name>
+			<name xml:lang="ger">160X200</name>
+			<name xml:lang="hun">160X200</name>
+			<name xml:lang="ita">160X200</name>
+			<name xml:lang="pol">160X200</name>
+			<name xml:lang="rum">160X200</name>
+			<name xml:lang="scr">160X200</name>
+			<name xml:lang="slo">160X200</name>
+			<name xml:lang="spa">160X200</name>
+		</size>
+		<size id="D" name="180X200">
+			<name xml:lang="bul">180X200</name>
+			<name xml:lang="eng">180X200</name>
+			<name xml:lang="fre">180X200</name>
+			<name xml:lang="ger">180X200</name>
+			<name xml:lang="hun">180X200</name>
+			<name xml:lang="ita">180X200</name>
+			<name xml:lang="pol">180X200</name>
+			<name xml:lang="rum">180X200</name>
+			<name xml:lang="scr">180X200</name>
+			<name xml:lang="slo">180X200</name>
+			<name xml:lang="spa">180X200</name>
+		</size>
+		<size id="E" name="200X200">
+			<name xml:lang="bul">200X200</name>
+			<name xml:lang="eng">200X200</name>
+			<name xml:lang="fre">200X200</name>
+			<name xml:lang="ger">200X200</name>
+			<name xml:lang="hun">200X200</name>
+			<name xml:lang="ita">200X200</name>
+			<name xml:lang="pol">200X200</name>
+			<name xml:lang="rum">200X200</name>
+			<name xml:lang="scr">200X200</name>
+			<name xml:lang="slo">200X200</name>
+			<name xml:lang="spa">200X200</name>
+		</size>
+		<size id="F" name="240X200">
+			<name xml:lang="bul">240X200</name>
+			<name xml:lang="eng">240X200</name>
+			<name xml:lang="fre">240X200</name>
+			<name xml:lang="ger">240X200</name>
+			<name xml:lang="hun">240X200</name>
+			<name xml:lang="ita">240X200</name>
+			<name xml:lang="pol">240X200</name>
+			<name xml:lang="rum">240X200</name>
+			<name xml:lang="scr">240X200</name>
+			<name xml:lang="slo">240X200</name>
+			<name xml:lang="spa">240X200</name>
+		</size>
+		<size id="T" name="220X200">
+			<name xml:lang="bul">220X200</name>
+			<name xml:lang="eng">220X200</name>
+			<name xml:lang="fre">220X200</name>
+			<name xml:lang="ger">220X200</name>
+			<name xml:lang="hun">220X200</name>
+			<name xml:lang="ita">220X200</name>
+			<name xml:lang="pol">220X200</name>
+			<name xml:lang="rum">220X200</name>
+			<name xml:lang="scr">220X200</name>
+			<name xml:lang="slo">220X200</name>
+			<name xml:lang="spa">220X200</name>
+		</size>
+		<size id="7" name="90x200x35">
+			<name xml:lang="bul">90x200x35</name>
+			<name xml:lang="eng">90x200x35</name>
+			<name xml:lang="fre">90x200x35</name>
+			<name xml:lang="ger">90x200x35</name>
+			<name xml:lang="hun">90x200x35</name>
+			<name xml:lang="ita">90x200x35</name>
+			<name xml:lang="pol">90x200x35</name>
+			<name xml:lang="rum">90x200x35</name>
+			<name xml:lang="scr">90x200x35</name>
+			<name xml:lang="slo">90x200x35</name>
+			<name xml:lang="spa">90x200x35</name>
+		</size>
+		<size id="14" name="80x200">
+			<name xml:lang="bul">80x200</name>
+			<name xml:lang="eng">80x200</name>
+			<name xml:lang="fre">80x200</name>
+			<name xml:lang="ger">80x200</name>
+			<name xml:lang="hun">80x200</name>
+			<name xml:lang="ita">80x200</name>
+			<name xml:lang="pol">80x200</name>
+			<name xml:lang="rum">80x200</name>
+			<name xml:lang="scr">80x200</name>
+			<name xml:lang="slo">80x200</name>
+			<name xml:lang="spa">80x200</name>
+		</size>
+		<size id="15" name="90x200">
+			<name xml:lang="bul">90x200</name>
+			<name xml:lang="eng">90x200</name>
+			<name xml:lang="fre">90x200</name>
+			<name xml:lang="ger">90x200</name>
+			<name xml:lang="hun">90x200</name>
+			<name xml:lang="ita">90x200</name>
+			<name xml:lang="pol">90x200</name>
+			<name xml:lang="rum">90x200</name>
+			<name xml:lang="scr">90x200</name>
+			<name xml:lang="slo">90x200</name>
+			<name xml:lang="spa">90x200</name>
+		</size>
+		<size id="58" name="120x260">
+			<name xml:lang="bul">120x260</name>
+			<name xml:lang="eng">120x260</name>
+			<name xml:lang="fre">120x260</name>
+			<name xml:lang="ger">120x260</name>
+			<name xml:lang="hun">120x260</name>
+			<name xml:lang="ita">120x260</name>
+			<name xml:lang="pol">120x260</name>
+			<name xml:lang="rum">120x260</name>
+			<name xml:lang="scr">120x260</name>
+			<name xml:lang="slo">120x260</name>
+			<name xml:lang="spa">120x260</name>
+		</size>
+		<size id="59" name="160x260">
+			<name xml:lang="bul">160x260</name>
+			<name xml:lang="eng">160x260</name>
+			<name xml:lang="fre">160x260</name>
+			<name xml:lang="ger">160x260</name>
+			<name xml:lang="hun">160x260</name>
+			<name xml:lang="ita">160x260</name>
+			<name xml:lang="pol">160x260</name>
+			<name xml:lang="rum">160x260</name>
+			<name xml:lang="scr">160x260</name>
+			<name xml:lang="slo">160x260</name>
+			<name xml:lang="spa">160x260</name>
+		</size>
+	</group>
+	<group id="8" name="Szlafroki, Rękawice, Kurtki">
+		<size id="M" name="L">
+			<name xml:lang="bul">L</name>
+			<name xml:lang="eng">L</name>
+			<name xml:lang="fre">L</name>
+			<name xml:lang="ger">L</name>
+			<name xml:lang="hun">L</name>
+			<name xml:lang="ita">L</name>
+			<name xml:lang="pol">L</name>
+			<name xml:lang="rum">L</name>
+			<name xml:lang="scr">L</name>
+			<name xml:lang="slo">L</name>
+			<name xml:lang="spa">L</name>
+		</size>
+		<size id="N" name="M">
+			<name xml:lang="bul">M</name>
+			<name xml:lang="eng">M</name>
+			<name xml:lang="fre">M</name>
+			<name xml:lang="ger">M</name>
+			<name xml:lang="hun">M</name>
+			<name xml:lang="ita">M</name>
+			<name xml:lang="pol">M</name>
+			<name xml:lang="rum">M</name>
+			<name xml:lang="scr">M</name>
+			<name xml:lang="slo">M</name>
+			<name xml:lang="spa">M</name>
+		</size>
+		<size id="P" name="XL">
+			<name xml:lang="bul">XL</name>
+			<name xml:lang="eng">XL</name>
+			<name xml:lang="fre">XL</name>
+			<name xml:lang="ger">XL</name>
+			<name xml:lang="hun">XL</name>
+			<name xml:lang="ita">XL</name>
+			<name xml:lang="pol">XL</name>
+			<name xml:lang="rum">XL</name>
+			<name xml:lang="scr">XL</name>
+			<name xml:lang="slo">XL</name>
+			<name xml:lang="spa">XL</name>
+		</size>
+		<size id="R" name="XXL+">
+			<name xml:lang="bul">XXL+</name>
+			<name xml:lang="eng">XXL+</name>
+			<name xml:lang="fre">XXL+</name>
+			<name xml:lang="ger">XXL+</name>
+			<name xml:lang="hun">XXL+</name>
+			<name xml:lang="ita">XXL+</name>
+			<name xml:lang="pol">XXL+</name>
+			<name xml:lang="rum">XXL+</name>
+			<name xml:lang="scr">XXL+</name>
+			<name xml:lang="slo">XXL+</name>
+			<name xml:lang="spa">XXL+</name>
+		</size>
+		<size id="5" name="S">
+			<name xml:lang="bul">S</name>
+			<name xml:lang="eng">S</name>
+			<name xml:lang="fre">S</name>
+			<name xml:lang="ger">S</name>
+			<name xml:lang="hun">S</name>
+			<name xml:lang="ita">S</name>
+			<name xml:lang="pol">S</name>
+			<name xml:lang="rum">S</name>
+			<name xml:lang="scr">S</name>
+			<name xml:lang="slo">S</name>
+			<name xml:lang="spa">S</name>
+		</size>
+		<size id="6" name="XS">
+			<name xml:lang="bul">XS</name>
+			<name xml:lang="eng">XS</name>
+			<name xml:lang="fre">XS</name>
+			<name xml:lang="ger">XS</name>
+			<name xml:lang="hun">XS</name>
+			<name xml:lang="ita">XS</name>
+			<name xml:lang="pol">XS</name>
+			<name xml:lang="rum">XS</name>
+			<name xml:lang="scr">XS</name>
+			<name xml:lang="slo">XS</name>
+			<name xml:lang="spa">XS</name>
+		</size>
+		<size id="13" name="180">
+			<name xml:lang="bul">180</name>
+			<name xml:lang="eng">180</name>
+			<name xml:lang="fre">180</name>
+			<name xml:lang="ger">180</name>
+			<name xml:lang="hun">180</name>
+			<name xml:lang="ita">180</name>
+			<name xml:lang="pol">180</name>
+			<name xml:lang="rum">180</name>
+			<name xml:lang="scr">180</name>
+			<name xml:lang="slo">180</name>
+			<name xml:lang="spa">180</name>
+		</size>
+		<size id="49" name="XXXL">
+			<name xml:lang="bul">XXXL</name>
+			<name xml:lang="eng">XXXL</name>
+			<name xml:lang="fre">XXXL</name>
+			<name xml:lang="ger">XXXL</name>
+			<name xml:lang="hun">XXXL</name>
+			<name xml:lang="ita">XXXL</name>
+			<name xml:lang="pol">XXXL</name>
+			<name xml:lang="rum">XXXL</name>
+			<name xml:lang="scr">XXXL</name>
+			<name xml:lang="slo">XXXL</name>
+			<name xml:lang="spa">XXXL</name>
+		</size>
+		<size id="50" name="XXL">
+			<name xml:lang="bul">XXL</name>
+			<name xml:lang="eng">XXL</name>
+			<name xml:lang="fre">XXL</name>
+			<name xml:lang="ger">XXL</name>
+			<name xml:lang="hun">XXL</name>
+			<name xml:lang="ita">XXL</name>
+			<name xml:lang="pol">XXL</name>
+			<name xml:lang="rum">XXL</name>
+			<name xml:lang="scr">XXL</name>
+			<name xml:lang="slo">XXL</name>
+			<name xml:lang="spa">XXL</name>
+		</size>
+		<size id="54" name="80x135 (S-M)">
+			<name xml:lang="bul">80x135 (S-M)</name>
+			<name xml:lang="eng">80x135 (S-M)</name>
+			<name xml:lang="fre">80x135 (S-M)</name>
+			<name xml:lang="ger">80x135 (S-M)</name>
+			<name xml:lang="hun">80x135 (S-M)</name>
+			<name xml:lang="ita">80x135 (S-M)</name>
+			<name xml:lang="pol">80x135 (S-M)</name>
+			<name xml:lang="rum">80x135 (S-M)</name>
+			<name xml:lang="scr">80x135 (S-M)</name>
+			<name xml:lang="slo">80x135 (S-M)</name>
+			<name xml:lang="spa">80x135 (S-M)</name>
+		</size>
+		<size id="55" name="80x160 (L-XL)">
+			<name xml:lang="bul">80x160 (L-XL)</name>
+			<name xml:lang="eng">80x160 (L-XL)</name>
+			<name xml:lang="fre">80x160 (L-XL)</name>
+			<name xml:lang="ger">80x160 (L-XL)</name>
+			<name xml:lang="hun">80x160 (L-XL)</name>
+			<name xml:lang="ita">80x160 (L-XL)</name>
+			<name xml:lang="pol">80x160 (L-XL)</name>
+			<name xml:lang="rum">80x160 (L-XL)</name>
+			<name xml:lang="scr">80x160 (L-XL)</name>
+			<name xml:lang="slo">80x160 (L-XL)</name>
+			<name xml:lang="spa">80x160 (L-XL)</name>
+		</size>
+	</group>
+	<group id="7" name="Ręczniki hotelowe">
+		<size id="J" name="40X60">
+			<name xml:lang="bul">40X60</name>
+			<name xml:lang="eng">40X60</name>
+			<name xml:lang="fre">40X60</name>
+			<name xml:lang="ger">40X60</name>
+			<name xml:lang="hun">40X60</name>
+			<name xml:lang="ita">40X60</name>
+			<name xml:lang="pol">40X60</name>
+			<name xml:lang="rum">40X60</name>
+			<name xml:lang="scr">40X60</name>
+			<name xml:lang="slo">40X60</name>
+			<name xml:lang="spa">40X60</name>
+		</size>
+		<size id="K" name="50X100">
+			<name xml:lang="bul">50X100</name>
+			<name xml:lang="eng">50X100</name>
+			<name xml:lang="fre">50X100</name>
+			<name xml:lang="ger">50X100</name>
+			<name xml:lang="hun">50X100</name>
+			<name xml:lang="ita">50X100</name>
+			<name xml:lang="pol">50X100</name>
+			<name xml:lang="rum">50X100</name>
+			<name xml:lang="scr">50X100</name>
+			<name xml:lang="slo">50X100</name>
+			<name xml:lang="spa">50X100</name>
+		</size>
+		<size id="L" name="70X140">
+			<name xml:lang="bul">70X140</name>
+			<name xml:lang="eng">70X140</name>
+			<name xml:lang="fre">70X140</name>
+			<name xml:lang="ger">70X140</name>
+			<name xml:lang="hun">70X140</name>
+			<name xml:lang="ita">70X140</name>
+			<name xml:lang="pol">70X140</name>
+			<name xml:lang="rum">70X140</name>
+			<name xml:lang="scr">70X140</name>
+			<name xml:lang="slo">70X140</name>
+			<name xml:lang="spa">70X140</name>
+		</size>
+		<size id="8" name="30X30">
+			<name xml:lang="bul">30X30</name>
+			<name xml:lang="eng">30X30</name>
+			<name xml:lang="fre">30X30</name>
+			<name xml:lang="ger">30X30</name>
+			<name xml:lang="hun">30X30</name>
+			<name xml:lang="ita">30X30</name>
+			<name xml:lang="pol">30X30</name>
+			<name xml:lang="rum">30X30</name>
+			<name xml:lang="scr">30X30</name>
+			<name xml:lang="slo">30X30</name>
+			<name xml:lang="spa">30X30</name>
+		</size>
+		<size id="56" name="15X20">
+			<name xml:lang="bul">15X20</name>
+			<name xml:lang="eng">15X20</name>
+			<name xml:lang="fre">15X20</name>
+			<name xml:lang="ger">15X20</name>
+			<name xml:lang="hun">15X20</name>
+			<name xml:lang="ita">15X20</name>
+			<name xml:lang="pol">15X20</name>
+			<name xml:lang="rum">15X20</name>
+			<name xml:lang="scr">15X20</name>
+			<name xml:lang="slo">15X20</name>
+			<name xml:lang="spa">15X20</name>
+		</size>
+		<size id="60" name="60X100">
+			<name xml:lang="bul">60X100</name>
+			<name xml:lang="eng">60X100</name>
+			<name xml:lang="fre">60X100</name>
+			<name xml:lang="ger">60X100</name>
+			<name xml:lang="hun">60X100</name>
+			<name xml:lang="ita">60X100</name>
+			<name xml:lang="pol">60X100</name>
+			<name xml:lang="rum">60X100</name>
+			<name xml:lang="scr">60X100</name>
+			<name xml:lang="slo">60X100</name>
+			<name xml:lang="spa">60X100</name>
+		</size>
+	</group>
+	<group id="6" name="Poszewki na poduszkę, Dywaniki">
+		<size id="G" name="50X70">
+			<name xml:lang="bul">50x70</name>
+			<name xml:lang="eng">50X70</name>
+			<name xml:lang="fre">50x70</name>
+			<name xml:lang="ger">50x70</name>
+			<name xml:lang="hun">50X70</name>
+			<name xml:lang="ita">50x70</name>
+			<name xml:lang="pol">50x70</name>
+			<name xml:lang="rum">50x70</name>
+			<name xml:lang="scr">50X70</name>
+			<name xml:lang="slo">50X70</name>
+			<name xml:lang="spa">50x70</name>
+		</size>
+		<size id="H" name="70X80">
+			<name xml:lang="bul">70x80</name>
+			<name xml:lang="eng">70X80</name>
+			<name xml:lang="fre">70x80</name>
+			<name xml:lang="ger">70x80</name>
+			<name xml:lang="hun">70X80</name>
+			<name xml:lang="ita">70x80</name>
+			<name xml:lang="pol">70x80</name>
+			<name xml:lang="rum">70x80</name>
+			<name xml:lang="scr">70X80</name>
+			<name xml:lang="slo">70X80</name>
+			<name xml:lang="spa">70x80</name>
+		</size>
+		<size id="I" name="60X80">
+			<name xml:lang="bul">60X80</name>
+			<name xml:lang="eng">60X80</name>
+			<name xml:lang="fre">60X80</name>
+			<name xml:lang="ger">60X80</name>
+			<name xml:lang="hun">60X80</name>
+			<name xml:lang="ita">60X80</name>
+			<name xml:lang="pol">60X80</name>
+			<name xml:lang="rum">60X80</name>
+			<name xml:lang="scr">60X80</name>
+			<name xml:lang="slo">60X80</name>
+			<name xml:lang="spa">60X80</name>
+		</size>
+		<size id="V" name="60X80 + 4cm flan">
+			<name xml:lang="bul">60X80 + 4cm flan</name>
+			<name xml:lang="eng">60X80 + 4cm flan</name>
+			<name xml:lang="fre">60X80 + 4cm flan</name>
+			<name xml:lang="ger">60X80 + 4cm flan</name>
+			<name xml:lang="hun">60X80 + 4cm flan</name>
+			<name xml:lang="ita">60X80 + 4cm flan</name>
+			<name xml:lang="pol">60X80 + 4cm flan</name>
+			<name xml:lang="rum">60X80 + 4cm flan</name>
+			<name xml:lang="scr">60X80 + 4cm flan</name>
+			<name xml:lang="slo">60X80 + 4cm flan</name>
+			<name xml:lang="spa">60X80 + 4cm flan</name>
+		</size>
+		<size id="W" name="70X90">
+			<name xml:lang="bul">70X90</name>
+			<name xml:lang="eng">70X90</name>
+			<name xml:lang="fre">70X90</name>
+			<name xml:lang="ger">70X90</name>
+			<name xml:lang="hun">70X90</name>
+			<name xml:lang="ita">70X90</name>
+			<name xml:lang="pol">70X90</name>
+			<name xml:lang="rum">70X90</name>
+			<name xml:lang="scr">70X90</name>
+			<name xml:lang="slo">70X90</name>
+			<name xml:lang="spa">70X90</name>
+		</size>
+		<size id="X" name="40X40">
+			<name xml:lang="bul">40X40</name>
+			<name xml:lang="eng">40X40</name>
+			<name xml:lang="fre">40X40</name>
+			<name xml:lang="ger">40X40</name>
+			<name xml:lang="hun">40X40</name>
+			<name xml:lang="ita">40X40</name>
+			<name xml:lang="pol">40X40</name>
+			<name xml:lang="rum">40X40</name>
+			<name xml:lang="scr">40X40</name>
+			<name xml:lang="slo">40X40</name>
+			<name xml:lang="spa">40X40</name>
+		</size>
+		<size id="Y" name="50X60">
+			<name xml:lang="bul">50X60</name>
+			<name xml:lang="eng">50X60</name>
+			<name xml:lang="fre">50X60</name>
+			<name xml:lang="ger">50X60</name>
+			<name xml:lang="hun">50X60</name>
+			<name xml:lang="ita">50X60</name>
+			<name xml:lang="pol">50X60</name>
+			<name xml:lang="rum">50X60</name>
+			<name xml:lang="scr">50X60</name>
+			<name xml:lang="slo">50X60</name>
+			<name xml:lang="spa">50X60</name>
+		</size>
+		<size id="9" name="50x35">
+			<name xml:lang="bul">50x35</name>
+			<name xml:lang="eng">50x35</name>
+			<name xml:lang="fre">50x35</name>
+			<name xml:lang="ger">50x35</name>
+			<name xml:lang="hun">50x35</name>
+			<name xml:lang="ita">50x35</name>
+			<name xml:lang="pol">50x35</name>
+			<name xml:lang="rum">50x35</name>
+			<name xml:lang="scr">50x35</name>
+			<name xml:lang="slo">50x35</name>
+			<name xml:lang="spa">50x35</name>
+		</size>
+	</group>
+	<group id="19" name="Skarpety">
+		<size id="45" name="41-45">
+			<name xml:lang="bul">41-45</name>
+			<name xml:lang="eng">41-45</name>
+			<name xml:lang="fre">41-45</name>
+			<name xml:lang="ger">41-45</name>
+			<name xml:lang="hun">41-45</name>
+			<name xml:lang="ita">41-45</name>
+			<name xml:lang="pol">41-45</name>
+			<name xml:lang="rum">41-45</name>
+			<name xml:lang="scr">41-45</name>
+			<name xml:lang="slo">41-45</name>
+			<name xml:lang="spa">41-45</name>
+		</size>
+	</group>
+	<group id="18" name="Sznurówki">
+		<size id="43" name="100 CM">
+			<name xml:lang="bul">100 CM</name>
+			<name xml:lang="eng">100 CM</name>
+			<name xml:lang="fre">100 CM</name>
+			<name xml:lang="ger">100 CM</name>
+			<name xml:lang="hun">100 CM</name>
+			<name xml:lang="ita">100 CM</name>
+			<name xml:lang="pol">100 CM</name>
+			<name xml:lang="rum">100 CM</name>
+			<name xml:lang="scr">100 CM</name>
+			<name xml:lang="slo">100 CM</name>
+			<name xml:lang="spa">100 CM</name>
+		</size>
+		<size id="44" name="120 CM">
+			<name xml:lang="bul">120 CM</name>
+			<name xml:lang="eng">120 CM</name>
+			<name xml:lang="fre">120 CM</name>
+			<name xml:lang="ger">120 CM</name>
+			<name xml:lang="hun">120 CM</name>
+			<name xml:lang="ita">120 CM</name>
+			<name xml:lang="pol">120 CM</name>
+			<name xml:lang="rum">120 CM</name>
+			<name xml:lang="scr">120 CM</name>
+			<name xml:lang="slo">120 CM</name>
+			<name xml:lang="spa">120 CM</name>
+		</size>
+	</group>
+	<group id="16" name="Uniwersalny rozmiar">
+		<size id="42" name="uniwersalny">
+			<name xml:lang="bul">uniwersalny</name>
+			<name xml:lang="eng">uniwersalny</name>
+			<name xml:lang="fre">uniwersalny</name>
+			<name xml:lang="ger">uniwersalny</name>
+			<name xml:lang="hun">uniwersalny</name>
+			<name xml:lang="ita">uniwersalny</name>
+			<name xml:lang="pol">uniwersalny</name>
+			<name xml:lang="rum">uniwersalny</name>
+			<name xml:lang="scr">uniwersalny</name>
+			<name xml:lang="slo">uniwersalny</name>
+			<name xml:lang="spa">uniwersalny</name>
+		</size>
+	</group>
+	<group id="15" name="Produkty jednorazowe">
+		<size id="41" name="75x90/150x200/150x210">
+			<name xml:lang="bul">75x90/150x200/150x210</name>
+			<name xml:lang="eng">75x90/150x200/150x210</name>
+			<name xml:lang="fre">75x90/150x200/150x210</name>
+			<name xml:lang="ger">75x90/150x200/150x210</name>
+			<name xml:lang="hun">75x90/150x200/150x210</name>
+			<name xml:lang="ita">75x90/150x200/150x210</name>
+			<name xml:lang="pol">75x90/150x200/150x210</name>
+			<name xml:lang="rum">75x90/150x200/150x210</name>
+			<name xml:lang="scr">75x90/150x200/150x210</name>
+			<name xml:lang="slo">75x90/150x200/150x210</name>
+			<name xml:lang="spa">75x90/150x200/150x210</name>
+		</size>
+	</group>
+	<group id="14" name="Ochrona głowy">
+		<size id="39" name="53-62 cm">
+			<name xml:lang="bul">53-62 cm</name>
+			<name xml:lang="eng">53-62 cm</name>
+			<name xml:lang="fre">53-62 cm</name>
+			<name xml:lang="ger">53-62 cm</name>
+			<name xml:lang="hun">53-62 cm</name>
+			<name xml:lang="ita">53-62 cm</name>
+			<name xml:lang="pol">53-62 cm</name>
+			<name xml:lang="rum">53-62 cm</name>
+			<name xml:lang="scr">53-62 cm</name>
+			<name xml:lang="slo">53-62 cm</name>
+			<name xml:lang="spa">53-62 cm</name>
+		</size>
+		<size id="40" name="58-62 cm">
+			<name xml:lang="bul">58-62 cm</name>
+			<name xml:lang="eng">58-62 cm</name>
+			<name xml:lang="fre">58-62 cm</name>
+			<name xml:lang="ger">58-62 cm</name>
+			<name xml:lang="hun">58-62 cm</name>
+			<name xml:lang="ita">58-62 cm</name>
+			<name xml:lang="pol">58-62 cm</name>
+			<name xml:lang="rum">58-62 cm</name>
+			<name xml:lang="scr">58-62 cm</name>
+			<name xml:lang="slo">58-62 cm</name>
+			<name xml:lang="spa">58-62 cm</name>
+		</size>
+		<size id="61" name="55-66 cm">
+			<name xml:lang="bul">55-66 cm</name>
+			<name xml:lang="eng">55-66 cm</name>
+			<name xml:lang="fre">55-66 cm</name>
+			<name xml:lang="ger">55-66 cm</name>
+			<name xml:lang="hun">55-66 cm</name>
+			<name xml:lang="ita">55-66 cm</name>
+			<name xml:lang="pol">55-66 cm</name>
+			<name xml:lang="rum">55-66 cm</name>
+			<name xml:lang="scr">55-66 cm</name>
+			<name xml:lang="slo">55-66 cm</name>
+			<name xml:lang="spa">55-66 cm</name>
+		</size>
+	</group>
+	<group id="13" name="Rękawice robocze">
+		<size id="31" name="7/S">
+			<name xml:lang="bul">7/S</name>
+			<name xml:lang="eng">7/S</name>
+			<name xml:lang="fre">7/S</name>
+			<name xml:lang="ger">7/S</name>
+			<name xml:lang="hun">7/S</name>
+			<name xml:lang="ita">7/S</name>
+			<name xml:lang="pol">7/S</name>
+			<name xml:lang="rum">7/S</name>
+			<name xml:lang="scr">7/S</name>
+			<name xml:lang="slo">7/S</name>
+			<name xml:lang="spa">7/S</name>
+		</size>
+		<size id="32" name="8/M">
+			<name xml:lang="bul">8/M</name>
+			<name xml:lang="eng">8/M</name>
+			<name xml:lang="fre">8/M</name>
+			<name xml:lang="ger">8/M</name>
+			<name xml:lang="hun">8/M</name>
+			<name xml:lang="ita">8/M</name>
+			<name xml:lang="pol">8/M</name>
+			<name xml:lang="rum">8/M</name>
+			<name xml:lang="scr">8/M</name>
+			<name xml:lang="slo">8/M</name>
+			<name xml:lang="spa">8/M</name>
+		</size>
+		<size id="33" name="9/L">
+			<name xml:lang="bul">9/L</name>
+			<name xml:lang="eng">9/L</name>
+			<name xml:lang="fre">9/L</name>
+			<name xml:lang="ger">9/L</name>
+			<name xml:lang="hun">9/L</name>
+			<name xml:lang="ita">9/L</name>
+			<name xml:lang="pol">9/L</name>
+			<name xml:lang="rum">9/L</name>
+			<name xml:lang="scr">9/L</name>
+			<name xml:lang="slo">9/L</name>
+			<name xml:lang="spa">9/L</name>
+		</size>
+		<size id="34" name="10/XL">
+			<name xml:lang="bul">10/XL</name>
+			<name xml:lang="eng">10/XL</name>
+			<name xml:lang="fre">10/XL</name>
+			<name xml:lang="ger">10/XL</name>
+			<name xml:lang="hun">10/XL</name>
+			<name xml:lang="ita">10/XL</name>
+			<name xml:lang="pol">10/XL</name>
+			<name xml:lang="rum">10/XL</name>
+			<name xml:lang="scr">10/XL</name>
+			<name xml:lang="slo">10/XL</name>
+			<name xml:lang="spa">10/XL</name>
+		</size>
+		<size id="35" name="11/XXL">
+			<name xml:lang="bul">11/XXL</name>
+			<name xml:lang="eng">11/XXL</name>
+			<name xml:lang="fre">11/XXL</name>
+			<name xml:lang="ger">11/XXL</name>
+			<name xml:lang="hun">11/XXL</name>
+			<name xml:lang="ita">11/XXL</name>
+			<name xml:lang="pol">11/XXL</name>
+			<name xml:lang="rum">11/XXL</name>
+			<name xml:lang="scr">11/XXL</name>
+			<name xml:lang="slo">11/XXL</name>
+			<name xml:lang="spa">11/XXL</name>
+		</size>
+		<size id="52" name="6/XS">
+			<name xml:lang="bul">6/XS</name>
+			<name xml:lang="eng">6/XS</name>
+			<name xml:lang="fre">6/XS</name>
+			<name xml:lang="ger">6/XS</name>
+			<name xml:lang="hun">6/XS</name>
+			<name xml:lang="ita">6/XS</name>
+			<name xml:lang="pol">6/XS</name>
+			<name xml:lang="rum">6/XS</name>
+			<name xml:lang="scr">6/XS</name>
+			<name xml:lang="slo">6/XS</name>
+			<name xml:lang="spa">6/XS</name>
+		</size>
+		<size id="53" name="10,5/XL">
+			<name xml:lang="bul">10,5/XL</name>
+			<name xml:lang="eng">10,5/XL</name>
+			<name xml:lang="fre">10,5/XL</name>
+			<name xml:lang="ger">10,5/XL</name>
+			<name xml:lang="hun">10,5/XL</name>
+			<name xml:lang="ita">10,5/XL</name>
+			<name xml:lang="pol">10,5/XL</name>
+			<name xml:lang="rum">10,5/XL</name>
+			<name xml:lang="scr">10,5/XL</name>
+			<name xml:lang="slo">10,5/XL</name>
+			<name xml:lang="spa">10,5/XL</name>
+		</size>
+	</group>
+	<group id="10" name="Materace">
+		<size id="1" name="80X200X18">
+			<name xml:lang="bul">80X200X18</name>
+			<name xml:lang="eng">80X200X18</name>
+			<name xml:lang="fre">80X200X18</name>
+			<name xml:lang="ger">80X200X18</name>
+			<name xml:lang="hun">80X200X18</name>
+			<name xml:lang="ita">80X200X18</name>
+			<name xml:lang="pol">80X200X18</name>
+			<name xml:lang="rum">80X200X18</name>
+			<name xml:lang="scr">80X200X18</name>
+			<name xml:lang="slo">80X200X18</name>
+			<name xml:lang="spa">80X200X18</name>
+		</size>
+		<size id="2" name="90X200X18">
+			<name xml:lang="bul">90X200X18</name>
+			<name xml:lang="eng">90X200X18</name>
+			<name xml:lang="fre">90X200X18</name>
+			<name xml:lang="ger">90X200X18</name>
+			<name xml:lang="hun">90X200X18</name>
+			<name xml:lang="ita">90X200X18</name>
+			<name xml:lang="pol">90X200X18</name>
+			<name xml:lang="rum">90X200X18</name>
+			<name xml:lang="scr">90X200X18</name>
+			<name xml:lang="slo">90X200X18</name>
+			<name xml:lang="spa">90X200X18</name>
+		</size>
+		<size id="3" name="160X200X18">
+			<name xml:lang="bul">160X200X18</name>
+			<name xml:lang="eng">160X200X18</name>
+			<name xml:lang="fre">160X200X18</name>
+			<name xml:lang="ger">160X200X18</name>
+			<name xml:lang="hun">160X200X18</name>
+			<name xml:lang="ita">160X200X18</name>
+			<name xml:lang="pol">160X200X18</name>
+			<name xml:lang="rum">160X200X18</name>
+			<name xml:lang="scr">160X200X18</name>
+			<name xml:lang="slo">160X200X18</name>
+			<name xml:lang="spa">160X200X18</name>
+		</size>
+		<size id="4" name="160X200X4">
+			<name xml:lang="bul">160X200X4</name>
+			<name xml:lang="eng">160X200X4</name>
+			<name xml:lang="fre">160X200X4</name>
+			<name xml:lang="ger">160X200X4</name>
+			<name xml:lang="hun">160X200X4</name>
+			<name xml:lang="ita">160X200X4</name>
+			<name xml:lang="pol">160X200X4</name>
+			<name xml:lang="rum">160X200X4</name>
+			<name xml:lang="scr">160X200X4</name>
+			<name xml:lang="slo">160X200X4</name>
+			<name xml:lang="spa">160X200X4</name>
+		</size>
+	</group>
+	<group id="12" name="Obuwie">
+		<size id="16" name="34/35">
+			<name xml:lang="bul">34/35</name>
+			<name xml:lang="eng">34/35</name>
+			<name xml:lang="fre">34/35</name>
+			<name xml:lang="ger">34/35</name>
+			<name xml:lang="hun">34/35</name>
+			<name xml:lang="ita">34/35</name>
+			<name xml:lang="pol">34/35</name>
+			<name xml:lang="rum">34/35</name>
+			<name xml:lang="scr">34/35</name>
+			<name xml:lang="slo">34/35</name>
+			<name xml:lang="spa">34/35</name>
+		</size>
+		<size id="17" name="36/37">
+			<name xml:lang="bul">36/37</name>
+			<name xml:lang="eng">36/37</name>
+			<name xml:lang="fre">36/37</name>
+			<name xml:lang="ger">36/37</name>
+			<name xml:lang="hun">36/37</name>
+			<name xml:lang="ita">36/37</name>
+			<name xml:lang="pol">36/37</name>
+			<name xml:lang="rum">36/37</name>
+			<name xml:lang="scr">36/37</name>
+			<name xml:lang="slo">36/37</name>
+			<name xml:lang="spa">36/37</name>
+		</size>
+		<size id="18" name="38/39">
+			<name xml:lang="bul">38/39</name>
+			<name xml:lang="eng">38/39</name>
+			<name xml:lang="fre">38/39</name>
+			<name xml:lang="ger">38/39</name>
+			<name xml:lang="hun">38/39</name>
+			<name xml:lang="ita">38/39</name>
+			<name xml:lang="pol">38/39</name>
+			<name xml:lang="rum">38/39</name>
+			<name xml:lang="scr">38/39</name>
+			<name xml:lang="slo">38/39</name>
+			<name xml:lang="spa">38/39</name>
+		</size>
+		<size id="19" name="40/41">
+			<name xml:lang="bul">40/41</name>
+			<name xml:lang="eng">40/41</name>
+			<name xml:lang="fre">40/41</name>
+			<name xml:lang="ger">40/41</name>
+			<name xml:lang="hun">40/41</name>
+			<name xml:lang="ita">40/41</name>
+			<name xml:lang="pol">40/41</name>
+			<name xml:lang="rum">40/41</name>
+			<name xml:lang="scr">40/41</name>
+			<name xml:lang="slo">40/41</name>
+			<name xml:lang="spa">40/41</name>
+		</size>
+		<size id="20" name="42/43">
+			<name xml:lang="bul">42/43</name>
+			<name xml:lang="eng">42/43</name>
+			<name xml:lang="fre">42/43</name>
+			<name xml:lang="ger">42/43</name>
+			<name xml:lang="hun">42/43</name>
+			<name xml:lang="ita">42/43</name>
+			<name xml:lang="pol">42/43</name>
+			<name xml:lang="rum">42/43</name>
+			<name xml:lang="scr">42/43</name>
+			<name xml:lang="slo">42/43</name>
+			<name xml:lang="spa">42/43</name>
+		</size>
+		<size id="21" name="44/45">
+			<name xml:lang="bul">44/45</name>
+			<name xml:lang="eng">44/45</name>
+			<name xml:lang="fre">44/45</name>
+			<name xml:lang="ger">44/45</name>
+			<name xml:lang="hun">44/45</name>
+			<name xml:lang="ita">44/45</name>
+			<name xml:lang="pol">44/45</name>
+			<name xml:lang="rum">44/45</name>
+			<name xml:lang="scr">44/45</name>
+			<name xml:lang="slo">44/45</name>
+			<name xml:lang="spa">44/45</name>
+		</size>
+		<size id="36" name="36">
+			<name xml:lang="bul">36</name>
+			<name xml:lang="eng">36</name>
+			<name xml:lang="fre">36</name>
+			<name xml:lang="ger">36</name>
+			<name xml:lang="hun">36</name>
+			<name xml:lang="ita">36</name>
+			<name xml:lang="pol">36</name>
+			<name xml:lang="rum">36</name>
+			<name xml:lang="scr">36</name>
+			<name xml:lang="slo">36</name>
+			<name xml:lang="spa">36</name>
+		</size>
+		<size id="37" name="37">
+			<name xml:lang="bul">37</name>
+			<name xml:lang="eng">37</name>
+			<name xml:lang="fre">37</name>
+			<name xml:lang="ger">37</name>
+			<name xml:lang="hun">37</name>
+			<name xml:lang="ita">37</name>
+			<name xml:lang="pol">37</name>
+			<name xml:lang="rum">37</name>
+			<name xml:lang="scr">37</name>
+			<name xml:lang="slo">37</name>
+			<name xml:lang="spa">37</name>
+		</size>
+		<size id="38" name="38">
+			<name xml:lang="bul">38</name>
+			<name xml:lang="eng">38</name>
+			<name xml:lang="fre">38</name>
+			<name xml:lang="ger">38</name>
+			<name xml:lang="hun">38</name>
+			<name xml:lang="ita">38</name>
+			<name xml:lang="pol">38</name>
+			<name xml:lang="rum">38</name>
+			<name xml:lang="scr">38</name>
+			<name xml:lang="slo">38</name>
+			<name xml:lang="spa">38</name>
+		</size>
+		<size id="22" name="39">
+			<name xml:lang="bul">39</name>
+			<name xml:lang="eng">39</name>
+			<name xml:lang="fre">39</name>
+			<name xml:lang="ger">39</name>
+			<name xml:lang="hun">39</name>
+			<name xml:lang="ita">39</name>
+			<name xml:lang="pol">39</name>
+			<name xml:lang="rum">39</name>
+			<name xml:lang="scr">39</name>
+			<name xml:lang="slo">39</name>
+			<name xml:lang="spa">39</name>
+		</size>
+		<size id="23" name="40">
+			<name xml:lang="bul">40</name>
+			<name xml:lang="eng">40</name>
+			<name xml:lang="fre">40</name>
+			<name xml:lang="ger">40</name>
+			<name xml:lang="hun">40</name>
+			<name xml:lang="ita">40</name>
+			<name xml:lang="pol">40</name>
+			<name xml:lang="rum">40</name>
+			<name xml:lang="scr">40</name>
+			<name xml:lang="slo">40</name>
+			<name xml:lang="spa">40</name>
+		</size>
+		<size id="24" name="41">
+			<name xml:lang="bul">41</name>
+			<name xml:lang="eng">41</name>
+			<name xml:lang="fre">41</name>
+			<name xml:lang="ger">41</name>
+			<name xml:lang="hun">41</name>
+			<name xml:lang="ita">41</name>
+			<name xml:lang="pol">41</name>
+			<name xml:lang="rum">41</name>
+			<name xml:lang="scr">41</name>
+			<name xml:lang="slo">41</name>
+			<name xml:lang="spa">41</name>
+		</size>
+		<size id="25" name="42">
+			<name xml:lang="bul">42</name>
+			<name xml:lang="eng">42</name>
+			<name xml:lang="fre">42</name>
+			<name xml:lang="ger">42</name>
+			<name xml:lang="hun">42</name>
+			<name xml:lang="ita">42</name>
+			<name xml:lang="pol">42</name>
+			<name xml:lang="rum">42</name>
+			<name xml:lang="scr">42</name>
+			<name xml:lang="slo">42</name>
+			<name xml:lang="spa">42</name>
+		</size>
+		<size id="26" name="43">
+			<name xml:lang="bul">43</name>
+			<name xml:lang="eng">43</name>
+			<name xml:lang="fre">43</name>
+			<name xml:lang="ger">43</name>
+			<name xml:lang="hun">43</name>
+			<name xml:lang="ita">43</name>
+			<name xml:lang="pol">43</name>
+			<name xml:lang="rum">43</name>
+			<name xml:lang="scr">43</name>
+			<name xml:lang="slo">43</name>
+			<name xml:lang="spa">43</name>
+		</size>
+		<size id="27" name="44">
+			<name xml:lang="bul">44</name>
+			<name xml:lang="eng">44</name>
+			<name xml:lang="fre">44</name>
+			<name xml:lang="ger">44</name>
+			<name xml:lang="hun">44</name>
+			<name xml:lang="ita">44</name>
+			<name xml:lang="pol">44</name>
+			<name xml:lang="rum">44</name>
+			<name xml:lang="scr">44</name>
+			<name xml:lang="slo">44</name>
+			<name xml:lang="spa">44</name>
+		</size>
+		<size id="28" name="45">
+			<name xml:lang="bul">45</name>
+			<name xml:lang="eng">45</name>
+			<name xml:lang="fre">45</name>
+			<name xml:lang="ger">45</name>
+			<name xml:lang="hun">45</name>
+			<name xml:lang="ita">45</name>
+			<name xml:lang="pol">45</name>
+			<name xml:lang="rum">45</name>
+			<name xml:lang="scr">45</name>
+			<name xml:lang="slo">45</name>
+			<name xml:lang="spa">45</name>
+		</size>
+		<size id="29" name="46">
+			<name xml:lang="bul">46</name>
+			<name xml:lang="eng">46</name>
+			<name xml:lang="fre">46</name>
+			<name xml:lang="ger">46</name>
+			<name xml:lang="hun">46</name>
+			<name xml:lang="ita">46</name>
+			<name xml:lang="pol">46</name>
+			<name xml:lang="rum">46</name>
+			<name xml:lang="scr">46</name>
+			<name xml:lang="slo">46</name>
+			<name xml:lang="spa">46</name>
+		</size>
+		<size id="30" name="47">
+			<name xml:lang="bul">47</name>
+			<name xml:lang="eng">47</name>
+			<name xml:lang="fre">47</name>
+			<name xml:lang="ger">47</name>
+			<name xml:lang="hun">47</name>
+			<name xml:lang="ita">47</name>
+			<name xml:lang="pol">47</name>
+			<name xml:lang="rum">47</name>
+			<name xml:lang="scr">47</name>
+			<name xml:lang="slo">47</name>
+			<name xml:lang="spa">47</name>
+		</size>
+		<size id="46" name="38-41">
+			<name xml:lang="bul">38-41</name>
+			<name xml:lang="eng">38-41</name>
+			<name xml:lang="fre">38-41</name>
+			<name xml:lang="ger">38-41</name>
+			<name xml:lang="hun">38-41</name>
+			<name xml:lang="ita">38-41</name>
+			<name xml:lang="pol">38-41</name>
+			<name xml:lang="rum">38-41</name>
+			<name xml:lang="scr">38-41</name>
+			<name xml:lang="slo">38-41</name>
+			<name xml:lang="spa">38-41</name>
+		</size>
+		<size id="47" name="42-45">
+			<name xml:lang="bul">42-45</name>
+			<name xml:lang="eng">42-45</name>
+			<name xml:lang="fre">42-45</name>
+			<name xml:lang="ger">42-45</name>
+			<name xml:lang="hun">42-45</name>
+			<name xml:lang="ita">42-45</name>
+			<name xml:lang="pol">42-45</name>
+			<name xml:lang="rum">42-45</name>
+			<name xml:lang="scr">42-45</name>
+			<name xml:lang="slo">42-45</name>
+			<name xml:lang="spa">42-45</name>
+		</size>
+		<size id="48" name="40-47">
+			<name xml:lang="bul">40-47</name>
+			<name xml:lang="eng">40-47</name>
+			<name xml:lang="fre">40-47</name>
+			<name xml:lang="ger">40-47</name>
+			<name xml:lang="hun">40-47</name>
+			<name xml:lang="ita">40-47</name>
+			<name xml:lang="pol">40-47</name>
+			<name xml:lang="rum">40-47</name>
+			<name xml:lang="scr">40-47</name>
+			<name xml:lang="slo">40-47</name>
+			<name xml:lang="spa">40-47</name>
+		</size>
+		<size id="51" name="35">
+			<name xml:lang="bul">35</name>
+			<name xml:lang="eng">35</name>
+			<name xml:lang="fre">35</name>
+			<name xml:lang="ger">35</name>
+			<name xml:lang="hun">35</name>
+			<name xml:lang="ita">35</name>
+			<name xml:lang="pol">35</name>
+			<name xml:lang="rum">35</name>
+			<name xml:lang="scr">35</name>
+			<name xml:lang="slo">35</name>
+			<name xml:lang="spa">35</name>
+		</size>
+		<size id="57" name="48">
+			<name xml:lang="bul">48</name>
+			<name xml:lang="eng">48</name>
+			<name xml:lang="fre">48</name>
+			<name xml:lang="ger">48</name>
+			<name xml:lang="hun">48</name>
+			<name xml:lang="ita">48</name>
+			<name xml:lang="pol">48</name>
+			<name xml:lang="rum">48</name>
+			<name xml:lang="scr">48</name>
+			<name xml:lang="slo">48</name>
+			<name xml:lang="spa">48</name>
+		</size>
+	</group>
+</sizes>
+
