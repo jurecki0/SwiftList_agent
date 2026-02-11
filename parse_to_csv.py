@@ -21,6 +21,9 @@ def main() -> None:
             "category_id",
             "category_name",
             "producer_id",
+            "image_url",
+            "icon_url",
+            "card_url",
         ])
         w.writeheader()
 
@@ -29,6 +32,9 @@ def main() -> None:
         category_id = None
         category_name = None
         producer_id = None
+        image_url = ""
+        icon_url = ""
+        card_url = ""
 
         in_product = False
         in_description = False
@@ -44,9 +50,14 @@ def main() -> None:
                     category_id = None
                     category_name = None
                     producer_id = None
+                    image_url = ""
+                    icon_url = ""
+                    card_url = ""
+
+                elif in_product and tag == "card":
+                    card_url = elem.get("url") or ""
 
                 elif in_product and tag == "category":
-                    # In your snippet: <category id="..." name="..."/> is a direct child of <product>
                     category_id = elem.get("id")
                     category_name = elem.get("name")
 
@@ -64,6 +75,13 @@ def main() -> None:
                 elif in_product and tag == "description":
                     in_description = False
 
+                elif in_product and tag == "image":
+                    image_url = elem.get("url") or ""
+
+                elif in_product and tag == "icon":
+                    if not icon_url:  # first icon (thumbnail)
+                        icon_url = elem.get("url") or ""
+
                 elif tag == "product":
                     w.writerow({
                         "product_id": product_id or "",
@@ -71,6 +89,9 @@ def main() -> None:
                         "category_id": category_id or "",
                         "category_name": category_name or "",
                         "producer_id": producer_id or "",
+                        "image_url": image_url,
+                        "icon_url": icon_url,
+                        "card_url": card_url,
                     })
                     in_product = False
                     elem.clear()  # free memory while iterparsing large XML [web:7]

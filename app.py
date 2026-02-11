@@ -16,7 +16,7 @@ def load_data():
         df["category"] = ""
     if "sizes" not in df.columns:
         df["sizes"] = ""
-    for c in ("price_gross", "price_net", "vat", "stock_value"):
+    for c in ("price_gross", "price_net", "vat", "stock_value", "image_url", "icon_url", "card_url"):
         if c not in df.columns:
             df[c] = ""
     df["total_stock"] = pd.to_numeric(df["total_stock"], errors="coerce").fillna(0).astype(int)
@@ -95,3 +95,33 @@ with col3:
 with col4:
     stock_val = pd.to_numeric(df["stock_value"], errors="coerce").fillna(0).sum()
     st.metric("Stock value (PLN)", f"{stock_val:,.2f}" if stock_val else "—")
+
+# Product images — check out images and product page
+st.subheader("Product images")
+products_with_images = df[(df["image_url"].str.strip() != "") | (df["icon_url"].str.strip() != "")]
+if products_with_images.empty:
+    st.caption("No product image URLs in data. Re-run parse_to_csv.py and combine_products_with_stock.py after adding image extraction.")
+else:
+    options = products_with_images.apply(
+        lambda r: f"{r['product_id']} — {(str(r.get('product_name_pol') or ''))[:50]}{'…' if len(str(r.get('product_name_pol') or '')) > 50 else ''}",
+        axis=1,
+    ).tolist()
+    option_to_row = dict(zip(options, products_with_images.to_dict("records")))
+    selected_label = st.selectbox("Choose a product to view image and link", options=options, key="image_product")
+    if selected_label and selected_label in option_to_row:
+        row = option_to_row[selected_label]
+        img_col, link_col = st.columns([1, 2])
+        with img_col:
+            url = (row.get("icon_url") or "").strip() or (row.get("image_url") or "").strip()
+            if url:
+                st.image(url, caption=f"Product {row.get('product_id', '')}", use_container_width=True)
+            else:
+                st.caption("No image URL")
+        with link_col:
+            card = (row.get("card_url") or "").strip()
+            if card:
+                st.markdown(f"**Product page:** [Open in browser]({card})")
+            image_url = (row.get("image_url") or "").strip()
+            if image_url and image_url != url:
+                st.markdown(f"**Full image:** [Open image]({image_url})")
+            st.caption(f"ID: {row.get('product_id')} · {row.get('product_name_pol', '')[:80]}")
