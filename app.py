@@ -10,6 +10,8 @@ st.set_page_config(page_title="Stock export viewer", layout="wide")
 @st.cache_data
 def load_data():
     df = pd.read_csv(CSV_PATH, dtype=str).fillna("")
+    if "producer" not in df.columns:
+        df["producer"] = ""
     df["total_stock"] = pd.to_numeric(df["total_stock"], errors="coerce").fillna(0).astype(int)
     df["category_label"] = df.apply(
         lambda r:
@@ -61,7 +63,7 @@ with right:
     view = view.sort_values(["category_name", "product_name_pol", "product_id"], ascending=True)
 
     st.dataframe(
-        view[["product_id", "product_name_pol", "category_id", "category_name", "total_stock"]],
+        view[["product_id", "product_name_pol", "category_id", "category_name", "producer", "total_stock"]],
         use_container_width=True,
         hide_index=True,
     )

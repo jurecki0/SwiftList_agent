@@ -20,6 +20,7 @@ def main() -> None:
             "product_name_pol",
             "category_id",
             "category_name",
+            "producer_id",
         ])
         w.writeheader()
 
@@ -27,6 +28,7 @@ def main() -> None:
         product_name_pol = None
         category_id = None
         category_name = None
+        producer_id = None
 
         in_product = False
         in_description = False
@@ -41,11 +43,15 @@ def main() -> None:
                     product_name_pol = None
                     category_id = None
                     category_name = None
+                    producer_id = None
 
                 elif in_product and tag == "category":
                     # In your snippet: <category id="..." name="..."/> is a direct child of <product>
                     category_id = elem.get("id")
                     category_name = elem.get("name")
+
+                elif in_product and tag == "producer":
+                    producer_id = elem.get("id")
 
                 elif in_product and tag == "description":
                     in_description = True
@@ -64,6 +70,7 @@ def main() -> None:
                         "product_name_pol": product_name_pol or "",
                         "category_id": category_id or "",
                         "category_name": category_name or "",
+                        "producer_id": producer_id or "",
                     })
                     in_product = False
                     elem.clear()  # free memory while iterparsing large XML [web:7]
